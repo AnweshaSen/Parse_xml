@@ -1,6 +1,6 @@
 import xml.dom.minidom
 
-doc = xml.dom.minidom.parse("P090912072.xml")
+doc = xml.dom.minidom.parse("DocumentName.xml")
 
 lines = doc.getElementsByTagName("character")
 Matrix = []
